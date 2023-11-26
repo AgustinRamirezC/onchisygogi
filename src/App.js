@@ -4,6 +4,7 @@ import Antes from './Paginas/Antes';
 import Despues from './Paginas/Despues';
 import River from './Paginas/River';
 import Sorpresa from './Paginas/Sorpresa';
+import Historia from './Paginas/Historia';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/despues' component={Despues}/>
           <Route path='/river' component={River}/>
           <Route path='/sorpresa' component={Sorpresa}/>
+          <Route path='/historia' component={Historia}/>
         </Switch>
     </div>
   );

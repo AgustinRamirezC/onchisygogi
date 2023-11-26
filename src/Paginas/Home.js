@@ -17,7 +17,9 @@ function Home(){
                 <p>después</p>
                 <Link to='/despues'><img src='/img/pinapaz.JPG' alt="."></img></Link>
             </div>
+            
         </nav>
+            <Link to='/historia' className="historia"><p>Hace click aquí para conocer la historia de un amor verdadero</p></Link>
         </nav>
     );
 }

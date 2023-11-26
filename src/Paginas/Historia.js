@@ -1,0 +1,15 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+function Historia(){
+    return(
+        <nav className='cajahistoria'>
+            <p className='textohistoria'>Todo comenzó cuando tenían 12 años. Gogi era un chico de estatura baja, con pelo castaño voluminoso y ojos azules. En general, era tranquilo, pasaba el rato con su grupo de amigos, jugando al futbol o a la play. Onchis era una chica de la misma estatura que él, la cual llevaba su cabello castaño recogido con una colita y también tenía ojos azules. Esta era amiguera y pertenecía a un grupo grande y unido. Disfrutaba de cocinar, comer chocolate y además pasar el tiempo con sus amigues. Él a los 12 años comenzó a fijarse en ella un mediodía en el patio del colegio. Al verla, se rescató de su belleza hipnotizante. En ese momento, Gogi decidió que debía encontrar la forma de hacer que ella se fije en él. Iban pasando los días y se comenzaron a conocer mejor. Él buscaba hacerla reir y ella le cedía el privilegio. Mensajes iban y venían y ella tenía claro como iba a terminar la historia. Al pasar las semanas, Onchis esperaba que Gogi tome las riendas y tenga las agallas de hacerle la gran pregunta. Unos días mas tarde, el 26 de noviembre del 2013 ocurrió el suceso. Era un martes calido de primavera. Gogi, cansado por no poder conciliar el sueño la noche anterior, se dirigía al colegio con nerviosismo e impaciencia. En cambio, Onchis esperaba pacientemente el momento, sabiendo que iba a ocurrir ese mismo día. El pitido del timbre indicaba el recreo para los alumnos y este era el momento donde se iban a encontrar los futuros novios. En un pasillo del segundo piso, rodeados por todes sus amigues, Gogi le dijo; "¿Querés ser mi novia?". A lo que Onchis le respondió; "¡Sí!". Nadie, ni ellos ni sus amigues, eran concientes de que este iba a ser el comienzo de una hermosa historia. Transcurrieron toda la secundaria juntos. Cabe aclarar que el primer año de noviazgo no se dirigieron la palabra, pero si tuvieron su primer beso. Este fue en las escaleras donde se encontraba el comedor. Ocurrió en un recreo, con sus amigues presentes. Fue un beso calido, pero inexperto. De todas formas, para ellos dos bastaba. Volviendo con lo que estaba antes, la primera vez que se hablaron fue luego de un año en el famoso desfile del colegio. A partir de ahí, la historia comenzo a formarse. Pasaron muchas cosas juntos. Como toda pareja. Momentos malos y buenos. Así, fueron formando una hermosa relación. A pesar de todos los tropezones, siguieron caminando juntos por la senda del amor y hoy, cumplen 10 años de novios. Los dos viven felices sabiendo que son el uno para el otro y esperan seguir viviendo muchos años más. 
+            </p>
+            <Link to='/'><img width="25" height="25" src="https://img.icons8.com/fluency-systems-filled/48/F25081/like.png" alt="like"/></Link>
+        </nav>
+        
+    );
+}
+
+export default Historia;
