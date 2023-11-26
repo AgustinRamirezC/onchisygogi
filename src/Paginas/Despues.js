@@ -36,8 +36,8 @@ function Despues(){
             <img src='/img/tiradosenlaplaya2.jpg' alt="."></img>
             <img src='/img/tiradosenlaplayaonchis.jpg' alt="."></img>
         </nav>
-        <div className='titulo1'>
-            <p><Link to='/river'>Si queres ver la mejor foto de todas, apreta acá</Link></p>
+        <div>
+           <Link to='/river' className="historia"><p>Si queres ver la mejor foto de todas, apreta acá</p></Link>
         </div>
         </React.Fragment>
     );
